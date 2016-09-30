@@ -8,7 +8,7 @@ public class B01 {
 		Scanner s = new Scanner(System.in);
 		System.out.println("HELLO");
 		System.out.println("HELLO");
-
+		System.out.println("Fixb01");
 	}
 
 }
