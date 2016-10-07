@@ -14,9 +14,10 @@ git push 를 서서 올린다
 6. 로컬에서 원격의 정보사항을 받아온다.(fetch)
 git fetch를 사용한다
 7. 로컬브랜치와 원격 받아온 브랜치를 merge한 후 받아온 소스를 컴파일한다.
-
+git merge origin 을 사용한다
 8. 에러가 발생한다면 수정한 후 add/commit을 한다.
 git add와commit다
 9. 복제하기 위핸 연결된 원격 연결을 끊는다.
-
+git remote rm origin
 10. 원격 연결을 apple이란 이름으로 새로 연결한 후 완성된 프로그램을 push한다.
+git remote add apple homework3주소git push apple master
